@@ -11,6 +11,7 @@ O projeto foi desenvolvido em grupo por:
 | Marco Conti | https://www.linkedin.com/in/marco-conti-br/ |
 
 ## 1. Overview do Projeto
+Esse trabalho foi desenvolvido durante a especialização em Big Data Analytics realizada na [FIA](https://fia.com.br/) pelo grupo descrito acima.
 O objetivo do projeto é criar uma arquitetura de dados que atenda as necessidades de negócios da Prefeitura do Município de  Recife quanto as campanhas de prevenção  à contaminação pelo mosquito Aedes Aegypti nos próximos 2 meses.
 
 **Principal análise preditiva desejada**:
@@ -26,7 +27,7 @@ Arquivos:
  
 ## 3. Scripts criados:
 **Jupyter em Python**: 
-Análise inicial exploratória utilizando Python, onde foram feitos estudos da base e estudos de modelos de dados.
+Análise inicial exploratória utilizando Python, onde foram feitos estudos da base e estudos de modelos de dados
 Script:
 * **Modelo_PYTHON.ipynb**: Estudo/ Exploração dos dados compostos nas bases extraídas. Além disso, foram realizados estudos e testes dos modelos de dados estatísticos para consideração do modelo de dados final: Boosting.
 * **Modelo_PYTHON.html**: Export do arquivo jupyter em formato HTML.
@@ -42,7 +43,7 @@ Scripts criados com o tratamento de dados dos arquivos importados, modelagem de 
 * **ui.R**: Componentes gráficos da tela(frames, campos, botões, links)
 * **server.R**: Processamentos. 
 
-## 5. Camada de apresentação no PowerBI: Criado um arquivo com reportes resultantes de análise.
+## 5. PowerBI: Criado um arquivo com reportes resultantes de análise
 * **Visão - Casos Aedes Aegypt.pbix**: Esse arquivo contém reportes com análise exploratória utilizando as bases unificadas, a qual por fim será utilizada para criação do modelo de dados. E por fim, tem um relatório que possibilita análise comparativa entre os dados realizados de 2016 e o período desejado previsto.
 
 ---
@@ -58,7 +59,7 @@ The project was developed in group by:
 | Marco Conti | https://www.linkedin.com/in/marco-conti-br/ |
 
 ## 1. Objective of the project:
-This project was developed during the Big Data Analytics Specialization at [FIA](https://www.linkedin.com/in/jmilhomem/) and the purpose was to develop a data model, which should be responsible to predict how many infected people might have in the neighborhoods of the city of Recife in Brazil. 
+This posgraduate work was done by the group listed above during the Big Data Analytics Specialization at [FIA](https://fia.com.br/) and the purpose was to develop a data model, which should be responsible to predict how many infected people might have in the neighborhoods of the city of Recife in Brazil. 
 The purpose of this model is to support the Recife's town hall with data for them to plan how to allocate the budget and implement the Zika's, Dengue's and/or Chikungunya's prevention campaigns as best as possible together with the population.
 
 ## 2. Datasets and sources:
