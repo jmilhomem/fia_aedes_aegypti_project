@@ -77,10 +77,10 @@ Datasets:
 * **Todas as estações 2015 a 2017.csv**: File that contains the historical temperature information that occured on the stations. It was extracted from www.inmet.gov.br
 
 ## 3. Architecture proposed: 
-![][/images/arquitetura_implementada.png]
+![alt text](/images/arquitetura_implementada.png "")
 
 ## 4. Architecture implemented: 
-![][/images/arquitetura_proposta.png]
+![alt text](/images/arquitetura_proposta.png "")
 
 ## 5. Scripts created:
 **Python's Jupyter**: 
