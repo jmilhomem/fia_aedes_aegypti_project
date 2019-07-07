@@ -26,10 +26,10 @@ Arquivos:
 * **Todas as estações 2015 a 2017.csv**: Arquivo contém informações de temperaturas ocorridas nas estações. Esta base foi extraída do site (www.inmet.gov.br/)
 
 ## 3. Arquitetura proposta: 
-![][/images/arquitetura_implementada.png]
+![alt text](/images/arquitetura_proposta.png "")
 
 ## 4. Arquitetura implementada: 
-![][/images/arquitetura_proposta.png]
+![alt text](/images/arquitetura_implementada.png "")
  
 ## 5. Scripts criados:
 **Jupyter em Python**: 
@@ -77,10 +77,10 @@ Datasets:
 * **Todas as estações 2015 a 2017.csv**: File that contains the historical temperature information that occured on the stations. It was extracted from www.inmet.gov.br
 
 ## 3. Architecture proposed: 
-![alt text](/images/arquitetura_implementada.png "")
+![alt text](/images/arquitetura_proposta.png "")
 
 ## 4. Architecture implemented: 
-![alt text](/images/arquitetura_proposta.png "")
+![alt text](/images/arquitetura_implementada.png "")
 
 ## 5. Scripts created:
 **Python's Jupyter**: 
