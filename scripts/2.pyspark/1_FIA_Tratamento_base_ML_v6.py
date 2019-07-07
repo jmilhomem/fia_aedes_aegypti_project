@@ -418,12 +418,6 @@ def trata_base_para_criar_machine_learning():
     hive_context.sql("insert overwrite table tb_base_final_para_ml_doencas select * from temp_df_base_final")
     
 
-    ####################################################################################################################
-    #                           5. MACHINE LEARNING
-    ####################################################################################################################
-
-
-
 
 if __name__ == "__main__":
 
