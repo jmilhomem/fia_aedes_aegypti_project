@@ -24,8 +24,14 @@ Arquivos:
 * **casos-zika_2016.csv** : Arquivo que contém casos de pessoas infectadas pelo Zika no ano de 2016. Essa base foi extraída do site http://dados.recife.pe.gov.br/ro/dataset
 * **Bairros_pe.csv**: Arquivo contém a relação entre bairros e estações meteorológicas e a população dos bairros. Esta base foi extraída do site do IBGE
 * **Todas as estações 2015 a 2017.csv**: Arquivo contém informações de temperaturas ocorridas nas estações. Esta base foi extraída do site (www.inmet.gov.br/)
+
+## 3. Arquitetura proposta: 
+![][/images/arquitetura_implementada.png]
+
+## 4. Arquitetura implementada: 
+![][/images/arquitetura_proposta.png]
  
-## 3. Scripts criados:
+## 5. Scripts criados:
 **Jupyter em Python**: 
 Análise inicial exploratória utilizando Python, onde foram feitos estudos da base e estudos de modelos de dados
 Script:
@@ -38,12 +44,12 @@ Scripts criados com o tratamento de dados dos arquivos importados, modelagem de 
 * **Machine Learning_v2.ipynb**: Jupyter onde o Data Scientist fez o estudo e criação de modelo. Assim que concluído, foi salvo no HDFS para utilização posterior.
 * **3_FIA_predicao_por_bairro.py**: Script produtivo criado para ler dados de base que será utilizada para previsão do modelo (quantidade de casos de pessoas picadas pelo Aedes Aegypti por bairro e semana). Ao final da previsão, essa base prevista é inserida (merge) na tabela usada para criação do modelo no Hive. Essa tabela será lida pelo Impala, que está sendo lido no PowerBI.
 
-## 4. Front end
+## 6. Front end
 **Scripts em Shiny**: Tela para leitura de parâmetros ou arquivos, que serão armazenados no HDFS, para serem lidos posteriormente pelo Spark para efetuar a predição. Também é possível enviar arquivos para o HDFS. Scripts:
 * **ui.R**: Componentes gráficos da tela(frames, campos, botões, links)
 * **server.R**: Processamentos. 
 
-## 5. PowerBI: Criado um arquivo com reportes resultantes de análise
+## 7. PowerBI: Criado um arquivo com reportes resultantes de análise
 * **Visão - Casos Aedes Aegypt.pbix**: Esse arquivo contém reportes com análise exploratória utilizando as bases unificadas, a qual por fim será utilizada para criação do modelo de dados. E por fim, tem um relatório que possibilita análise comparativa entre os dados realizados de 2016 e o período desejado previsto.
 
 ---
@@ -69,8 +75,14 @@ Datasets:
 * **casos-zika_2016.csv** : File that contains cases of infected people by Zika in 2016. That dataset was extracted from http://dados.recife.pe.gov.br/ro/dataset
 * **Bairros_pe.csv**: File that contains the neighborhoods and its stations, besides the number of neighborhood's population. It was extracted from IBGE's site.
 * **Todas as estações 2015 a 2017.csv**: File that contains the historical temperature information that occured on the stations. It was extracted from www.inmet.gov.br
- 
-## 3. Scripts created:
+
+## 3. Architecture proposed: 
+![][/images/arquitetura_implementada.png]
+
+## 4. Architecture implemented: 
+![][/images/arquitetura_proposta.png]
+
+## 5. Scripts created:
 **Python's Jupyter**: 
 Initial exploratory analyse created in Python and tested the data models.
 Script:
@@ -83,10 +95,10 @@ Scripts created to do the treatments of imported files, data modeling considerin
 * **Machine Learning_v2.ipynb**: Jupyter which the "Data Scientist" created to do the creation of the final data model, which once created, was saved at HDFS for future utilization.
 * **3_FIA_predicao_por_bairro.py**: Productive Script created to read the dataset which will be used to do the prediction (quantity of people infected by Aedes Aegypti by neighborhood). At the end, this predicted dataset will be stored (appended) to the final table into Hive, which already has the data used to create the data model. This table will be read by Impala, which will be used as a data source by PowerBI.
 
-## 4. Front end
+## 6. Front end
 **Shiny's Scripts**: Frond-end used by users to pass the parameters or files, which will be stored into HDFS, and read by Spark afterward to do the prediction. Scripts:
 * **ui.R**: Graphics Components (frames, attributes, bottons, links)
 * **server.R**: Processing. 
 
-## 5. PowerBI: File created with results of analysis done (report).
+## 7. PowerBI: File created with results of analysis done (report).
 * **Visão - Casos Aedes Aegypt.pbix**: File that contains reports with exploration analysis using the unified datasets, which will be used to create the final data model. At the end, was created a final report that enables us to do a comparative analyse of the actual data of 2016 and the prediction period desired.
