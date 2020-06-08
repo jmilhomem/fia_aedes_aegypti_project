@@ -76,7 +76,7 @@ Datasets:
 * **Bairros_pe.csv**: File that contains the neighborhoods and its stations, besides the number of neighborhood's population. It was extracted from IBGE's site.
 * **Todas as estações 2015 a 2017.csv**: File that contains the historical temperature information that occured on the stations. It was extracted from www.inmet.gov.br
 
-## 3. Architecture proposed: 
+## 3. Architecture purposed: 
 ![alt text](/images/arquitetura_proposta.png "")
 
 ## 4. Architecture implemented: 
